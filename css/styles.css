@@ -70,19 +70,21 @@ body {font-family: Montserrat,sans-serif;}
 .bg-1 {
       background-color: #FF9700;
       color: #ffffff;
-  }
-
-
+}
 
 .bg-2 {
   background-color: #474E5D;
   color: #ffffff;
 }
 
+.bg-3 {
+  background-color: #f40000;
+  color: #ffffff;
+}
 
 .bg-4 {
-      background-color: #00D1FF;
-      color: #fff;
+  background-color: #00D1FF;
+  color: #fff;
 }
 
 
