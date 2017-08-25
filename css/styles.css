@@ -5,6 +5,8 @@ body {font-family: Montserrat,sans-serif;}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
+  max-height: 400px;
+  overflow: hidden;
   position: relative;
   margin: auto;
 }
@@ -105,4 +107,9 @@ body {font-family: Montserrat,sans-serif;}
   }
   .navbar-nav  li a:hover {
       color: #1abc9c !important;
+  }
+
+  .myFood img{
+    margin-top: -100px;
+    width: 100%;
   }
