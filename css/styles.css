@@ -115,3 +115,60 @@ body {font-family: Montserrat,sans-serif;}
     margin-top: -100px;
     width: 100%;
   }
+
+  #header {
+  position:relative;
+  line-height:1em;
+}
+input {
+  border:1px solid #ccc;
+  border-bottom-color:#eee;
+  border-right-color:#eee;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  font-size:1em;
+  height:2.25em;
+  *height:1.5em;
+  line-height:1.5em;
+  padding:0.29em 0;
+  width:100%;
+  margin:0 0 0.75em;
+}
+.filterform {
+  width:220px;
+  font-size:12px;
+  display:block;
+}
+.filterform input {
+  -moz-border-radius:5px;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+}
+/*.entry {
+  margin: 0 0 0 0;
+  padding: 3px 0;
+  border-top: solid thin #666;
+  border-bottom: solid thin #222;
+  height:85px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}*/
+
+.recipe {
+  font-size:16px;
+  color:black;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color:#000;
+}
+
+.field {
+  font-weight:bold;
+  color:#777;
+}
+
+.info {
+  color:#000;
+}
