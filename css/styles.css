@@ -1,3 +1,27 @@
+.jumbotron {
+ margin-bottom: 0;
+}
+
+/*Add search icon*/
+input[type=text] {
+   width: 130px;
+   box-sizing: border-box;
+   border: 2px solid #ccc;
+   border-radius: 4px;
+   font-size: 16px;
+   background-color: white;
+   background-image: url('icon.png');
+   background-position: 10px 10px;
+   background-repeat: no-repeat;
+   padding: 12px 20px 12px 40px;
+   -webkit-transition: width 0.4s ease-in-out;
+   transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+   width: 100%;
+}
+
 * {box-sizing:border-box}
 body {font-family: Montserrat,sans-serif;}
 .mySlides {display:none}
@@ -114,6 +138,7 @@ body {font-family: Montserrat,sans-serif;}
   .navbar-nav  li a:hover {
       color: #1abc9c !important;
   }
+<<<<<<< HEAD
 
   .myFood img{
     margin-top: -100px;
@@ -150,4 +175,8 @@ body {font-family: Montserrat,sans-serif;}
     font-size: 300px;
     font-weight: bold;
     color: #000000;
+=======
+  .container {
+    margin-bottom: 15px;
+>>>>>>> 687d2b47af971be663874817478ba8683fd00c17
   }
