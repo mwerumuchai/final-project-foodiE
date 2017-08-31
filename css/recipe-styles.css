@@ -1,0 +1,199 @@
+.jumbotron {
+ margin-bottom: 0;
+}
+
+/*Add search icon*/
+input[type=text] {
+   width: 130px;
+   box-sizing: border-box;
+   border: 2px solid #ccc;
+   border-radius: 4px;
+   font-size: 16px;
+   background-color: white;
+   background-image: url('icon.png');
+   background-position: 10px 10px;
+   background-repeat: no-repeat;
+   padding: 12px 20px 12px 40px;
+   -webkit-transition: width 0.4s ease-in-out;
+   transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+   width: 100%;
+}
+
+* {box-sizing:border-box}
+body {font-family: Montserrat,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  max-height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Caption text */
+/*.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+*/
+/* Number text (1/3 etc) */
+/*.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+*/
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.bg-1 {
+      background-color: #FF9700;
+      color: #ffffff;
+}
+
+.bg-2 {
+  background-color: #474E5D;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.bg-3 {
+  background-color: #f40000;
+  color: #ffffff;
+}
+
+.bg-4 {
+  background-color: #00D1FF;
+  color: #fff;
+}
+
+.bg-5 {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+<<<<<<< HEAD
+
+  .myFood img{
+    margin-top: -100px;
+    width: 100%;
+  }
+
+  .col-md-1 {
+    height: inherit;
+    width: 50px;
+
+  }
+
+.col-md-4 {
+  float: left;
+  height: auto;
+  width: auto;
+  vertical-align:middle;
+  display:table-cell;
+  margin-right: 20px;
+  overflow: hidden;
+  }
+
+.col-md-4 img{
+
+  overflow: hidden;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border-color: #ffffff;
+  display: block;
+  float: left;
+}
+
+.col-md-6 {
+  height: auto;
+  width: auto;
+  float: right;
+  margin-right: 20px;
+  font-size: 15px;
+  font-weight: normal;
+  color: #000000;
+  text-align: left;
+  vertical-align:middle;
+  display:table-cell;
+
+}
+
+.container {
+  margin-bottom: 15px;
+
+}
+
+.row {
+  float: left;
+  height: auto;
+  width: auto;
+}
