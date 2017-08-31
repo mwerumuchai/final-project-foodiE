@@ -1,3 +1,4 @@
+
 * {box-sizing:border-box}
 body {font-family: Montserrat,sans-serif;
   background: -webkit-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
@@ -11,6 +12,27 @@ body {font-family: Montserrat,sans-serif;
   position: relative;
   padding-bottom: 50px;
 }
+
+/*Add search icon*/
+input[type=text] {
+   width: 130px;
+   box-sizing: border-box;
+   border: 2px solid #ccc;
+   border-radius: 4px;
+   font-size: 16px;
+   background-color: white;
+   background-image: url('icon.png');
+   background-position: 10px 10px;
+   background-repeat: no-repeat;
+   padding: 12px 20px 12px 40px;
+   -webkit-transition: width 0.4s ease-in-out;
+   transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+   width: 100%;
+}
+
 .mySlides {display:none}
 
 /* Slideshow container */
@@ -24,6 +46,7 @@ body {font-family: Montserrat,sans-serif;
   margin-bottom: 40px;
 }
 
+
 h1 {
   color: #330000;
 }
@@ -32,26 +55,7 @@ p {
   color: #1a0000;
 }
 
-/* Caption text */
-/*.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-*/
-/* Number text (1/3 etc) */
-/*.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-*/
+
 /* The dots/bullets/indicators */
 .dot {
   height: 13px;
@@ -91,16 +95,27 @@ p {
 }
 
 .bg-1 {
+<<<<<<< HEAD
       background-color: #dac292;
       color: #FF9700;
 }
 
 .bg-2 {
   background: #ffffff;
+=======
+      background-color: #FF9700;
+      color: #ffffff;
+}
+
+.bg-2 {
+  background-color: #474E5D;
+  color: #ffffff;
+>>>>>>> b0f2c93e849793fc9869faabc35257f09486430e
   margin-top: 40px;
 }
 
 .bg-3 {
+<<<<<<< HEAD
   background-color: #f4e1d2;
   color: #FF9700;
 }
@@ -119,7 +134,26 @@ p {
 .container {
     padding-top: 70px;
     padding-bottom: 70px;
-    
+
+=======
+  background-color: #f40000;
+  color: #ffffff;
+}
+
+.bg-4 {
+  background-color: #00D1FF;
+  color: #fff;
+}
+
+.bg-5 {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+>>>>>>> b0f2c93e849793fc9869faabc35257f09486430e
 }
 
 .navbar {
@@ -135,11 +169,12 @@ p {
       color: #1abc9c !important;
   }
 
-  .myFood img{
+.myFood img{
     margin-top: -100px;
     width: 100%;
   }
 
+<<<<<<< HEAD
   #header {
   position:relative;
   line-height:1em;
@@ -303,3 +338,34 @@ input:focus {
  .contact {
    background-color: #ecf0f1;
  }
+
+  .col-md-1 {
+    height: inherit;
+    width: 50px;
+
+  }
+
+  .col-md-4 {
+
+    float: left;
+    height: auto;
+    width: auto;
+  }
+.col-md-4 img{
+  overflow: hidden;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border-color: #ffffff;
+  display: block;
+}
+
+  .col-md-6 {
+    height: auto;
+    width: auto;
+    float: left;
+    margin-right: 20px;
+    font-size: 300px;
+    font-weight: bold;
+    color: #000000;

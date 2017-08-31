@@ -13,6 +13,7 @@ function showSlides() {
     setTimeout(showSlides, 3000); // Change image every 4 seconds
 }
 
+
 (function (jQuery) {
   $.expr[':'].Contains = function(a,i,m){    //:contains() this first converts the text value to uppercase and then does the comparison
       return (a.textContent || a.innerText || "").toUpperCase().indexOf(m[3].toUpperCase())>=0;
@@ -43,4 +44,5 @@ function showSlides() {
   $(function () {
     listFilter($("#header"), $("#list"));
   });
+
 }(jQuery));
