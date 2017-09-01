@@ -95,34 +95,24 @@ p {
 }
 
 .bg-1 {
-    background-color: #dac292;
-    color: #FF9700;
+  background-color: #dac292;
 }
 
 .bg-2 {
-  background-color: #FF9700;
-  color: #000000;
+  background: #ffffff;
+
 }
 
-
 .bg-3 {
-  background-color: #f4e1d2;
-  color: #FF9700;
+  background-color: #fbefcc;
 }
 
 .bg-4 {
-  background-color: #eea29a;
-  color: #FF9700;
+  background-color: #ffef96;
 }
 
 .bg-5 {
   background-color: #eea29a;
-  color: #FF9700;
-}
-
-.container {
-    padding-top: 70px;
-    padding-bottom: 70px;
 }
 
 .navbar {
@@ -142,7 +132,6 @@ p {
     margin-top: -100px;
     width: 100%;
   }
-
 
   #header {
   position:relative;
@@ -227,11 +216,11 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-.container {
+/*
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-}
+}*/
 
 /*subscription form*/
 h2 {
@@ -311,6 +300,7 @@ input:focus {
   .col-md-1 {
     height: inherit;
     width: 50px;
+
   }
 
   .col-md-4 {
@@ -337,4 +327,3 @@ input:focus {
     font-size: 300px;
     font-weight: bold;
     color: #000000;
-}
