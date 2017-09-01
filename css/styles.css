@@ -96,7 +96,6 @@ p {
 
 .bg-1 {
   background-color: #dac292;
-  color: #FF9700;
 }
 
 .bg-2 {
@@ -104,26 +103,16 @@ p {
 
 }
 
-.bg-2 {
-  background-color: #474E5D;
-
-  margin-top: 40px;
-}
-
 .bg-3 {
-
-  background-color: #f4e1d2;
-  color: #FF9700;
+  background-color: #fbefcc;
 }
 
 .bg-4 {
-  background-color: #eea29a;
-  color: #FF9700;
+  background-color: #ffef96;
 }
 
 .bg-5 {
   background-color: #eea29a;
-  color: #FF9700;
 }
 
 .navbar {
@@ -227,11 +216,11 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-.container {
+/*
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-}
+}*/
 
 /*subscription form*/
 h2 {
